@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website-Prachi Saini</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+     <!-- .......... Header section  ........... -->
+    <header class="header">
+        <div class="navbar">
+            <div class="logo-container">
+                <img src="P-logo.png" class="logo"> </img>
+                <div class="logo-text"> rachi  Saini</div>
+            </div>
+            <div class="nav-items">
+                <ul id="sidemenu">
+                    <div class="ab"><a href="#home" class="active"> <h>Home</h></a></div>
+                    <div class="ab"><a href="#about"> <h>About</h></a></div>
+                    <div class="ab"><a href="#projects"> <h>Projects</h></a></div>
+                    <div class="ab"><a href="#skills"><h> Skills</h></a></div>
+                    <div class="ab"><a href="#contactme"><h>Contact Me</h></a></div>
+                    <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul> 
+            </div>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </div>
+    </header>
+    <div id="wrapper">
+
+         <!-- ....................  Home Section  .............    -->
+
+        <div class="container">
+            
+        
+
+        <div class="hero-section" id="home">
+            <div class="faded-text">Prachi Saini</div>
+            <div class="hero-section-left">
+                <p class="hero-section-heading">Hello, It's me <br> <h><b  style="color:fuchsia;">Prachi Saini</b></h></p>
+                <div class="hero-section-sub-heading">
+                    And I'm a <span class="role"></span>
+                </div>
+                <div class="hero-section-description">
+                    I am a web developer and here is my portfolio website. Here you'll learn about my journey as a web developer. 
+                </div>
+                <a href="projects/Prachi_Saini_Resume.pdf" download class="btn-pink" id="btn"> Download Resume</a>
+            </div>    
+        
+
+            <div class="hero-section-right">
+                <div class="user-image" >
+                        <img src="pick.jpg" alt=""/>
+                </div>
+            </div>
+        </div>
+
+      <!-- ............   About Section ..............       -->
+
+        <div class="about"id="about">
+            <div class="user-image" >
+                <img src="pick.jpg" alt=""/>
+            </div>
+                <div class="about-content">
+                    <h2 class="heading" >About <span>Me</span></h2>
+                    <h3>Web Developer</h3>
+                    <p>
+                        Hi there! I'm <b>Prachi Saini</b>, a final year student persuing B.Tech from KIET Group of Institutions specializing in Computer Science & Information Technology.
+                        I am a web developer who is passionate about creating innovative and user-friendly websites. I have skills like HTML, 
+                        CSS , Tailwind, Javascript and React. I have worked on various projects such as a parallax website, a image gallary  project 
+                        , and a portfolio website. I am looking for opportunities to showcase my talents and work on challenging and exciting web development projects. Also 
+                        I am skilled in programming language C++ and I am a creative and enthusiastic person who loves to explore new ideas and 
+                        solve problems. My strength lies in my hard-working nature and self motivated which helps me achieve
+                         my goals and I am excited to learn and more grow as a professional in field of Computer Science.
+                    </p>
+                    <div class="education">
+                    <h1 style="color:blue "> Education  </h1>
+                        <p>• <b>Bachelor of Technology </b>|| KIET Group of Institutions ||   AKTU(2020-2024) , SGPA: 8.38<br>
+                            • <b>Intermediate</b> || Diamond Public School || CBSE(2018-2019), Percentage: 75.6<br>
+                             •<b>High School</b>||Holy Angel’S Public School||CBSE(2016-2017), CGPA: 10.0 
+                        </p>
+                    </div>
+                </div>
+              
+        </div>
+
+                    <!-- .......    Project  Section   .......   -->
+
+        <div class="project-section" id="projects">
+            <h2 class="page-header">Projects</h2>
+
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <video class="project-card" autoplay  loop muted plays-inline>
+                        <source src="projects/video1.mp4" type="video/mp4">
+                    </video>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="HTML.png" alt="" />
+                            <img class="project-skill" src="CSS.png" alt="" />
+                            
+                        </div>
+                        <h2 class="project-heading">Parallax Website</h2>
+                        <p class="project-sub-heading">• It is a Parallax Website which embrace the captivating scrolling effect with foreground and background<br> images moving at different speeds.
+                        </p>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-left">02</div>
+                    <video class="project-card" autoplay  loop muted plays-inline>
+                        <source src="projects/video2.mp4" type="video/mp4">
+                    </video>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="HTML.png" alt="" />
+                            <img class="project-skill" src="CSS.png" alt="" />
+                            
+                        </div>
+                        <h2 class="project-heading">Image Gallary</h2>
+                        <p class="project-sub-heading">• It is a Image Gallary Project in which gallary contains 9 pictures and when cursor hovers over images , it <br>transform in several ways like image becomes colorful , a text appear on the image and image scales up slightly. 
+                        </p>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project3">
+                    <div class="project-number project-number-right">03</div>
+                    <video class="project-card" autoplay  loop muted plays-inline>
+                        <source src="projects/video3.mp4" type="video/mp4">
+                    </video>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="python.png" alt="" />
+                            <img class="project-skill" src="computer.PNG" alt="" />
+                            
+                        </div>
+                        <h2 class="project-heading">Clothes Trial System</h2>
+                        <p class="project-sub-heading">• Develop a Virtual Environment to try clothes online .<br>
+                            • Aim to help people for trying clothes virtual trial room for online clothes
+                            shopping.
+                        </p>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project4">
+                    <div class="project-number project-number-left">04<br></div>
+                    <video class="project-card" autoplay  loop muted plays-inline>
+                        <source src="projects/video4.mp4" type="video/mp4">
+                    </video>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="cisco.jpg" alt="" />
+                            
+                        </div>
+                        <h2 class="project-heading">Smoke Detection with Fire Preventation</h2>
+                        <p class="project-sub-heading">• Purpose of this project is to detects smoke and issues an alarm to alert
+                            nearby people of the<br>      threat of a potential fire.
+                             
+                        </p>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+            <!-- ........... Skills Section ......... -->
+
+        <div id="skills">
+            <div class="head">
+            <h1>Skills</h1>
+            <div class="container skills-container">
+                
+                <div class="skill-container-left">
+                    <div class="skill-subHeading">
+                        <h2>Technical Skills</h2>
+                    </div>
+                    <ul>
+                        <li><b>Web Development - </b>HTML, CSS, Tailwind CSS,Javascript , React</li> <br>
+                        <li><b>Languages - </b> C/C++,Python,Javascript</li><br>
+                        <li><b>Domain of Interest -</b> Web Development, Data Structures and Algorithms </li> <br>
+                        <li><b>Version Control - </b> Git/GitHub</li>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    <ul>
+
+                </div>
+
+                <div class="skill-container-right ">
+                    <img class="skills-logo" src="HTML.png" alt="" />
+                    <img class="skills-logo" src="CSS.png" alt="" />
+                    <img class="skills-logo" src="tailwind.jpg" alt="" />
+                    <img class="skills-logo" src="javascript.png" alt="" />
+                    <img class="skills-logo" src="c++.png" alt="" />
+                    <img class="skills-logo" src="python.png" alt="" />
+                    <img class="skills-logo" src="react.png" alt="" />
+                    <img class="skills-logo" src="github.jpg" alt="" />
+                    <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                </div>
+            <div class="skill-fade-text" > Skills </div>
+
+            </div>
+            </div>
+
+        </div>
+<!-- ............Contact me Section......... -->
+
+        <div id="contactme">
+            <div class="contain">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>prachisaini1166@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>8920151166</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com"><i class="fab fa-faceboook"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+
+                        </div>
+
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <input type="tel" id="Phone" name="Phone" placeholder="Enter Your number"  required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn-pink" id="btn">Submit</button>
+
+                        </form>
+                        <span id="msg"></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p> Copyright . Made with by Easy tutorials.<i class="fas fa-heart"></i></p>
+
+        </div>
+    
+    
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typedata=new Typed(".role",{
+            strings: [
+            " Full Stack Web Developer",
+            "Coder",],
+            loop:true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+    <script>
+        var sidemeu= document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxBoTYsCIVKAg6_OouutSeiZwYEUVOUtrkhIP6pVJDY5FnaxP0ZjP8BG037zUsi0iQo/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
