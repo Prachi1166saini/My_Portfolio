@@ -628,6 +628,9 @@ a {
   color: #ff00ff;
   transform: translateY(-5px);
 }
+.social-icons{
+  padding-left: 30px;
+}
 
 .contact-right form {
   width: 100%;
@@ -800,6 +803,13 @@ form .btn-pink {
 
   .row {
     flex-direction: column;
+  }
+  .contain h1{
+    font-size:50px;
+
+  }
+  .social-icons{
+    padding-left: 30px;
   }
 
   form input {
