@@ -696,7 +696,8 @@ form .btn-pink {
     font-size: 25px;
     width: 2rem;
     height: 2rem;
-    background: black;
+    /* background: black; */
+    color: black;
 
   }
 
@@ -710,6 +711,25 @@ form .btn-pink {
     width: 200px;
     height: 100%;
     padding-top: 50px;
+  }
+  .hero-section-heading{
+    font-size:27px;
+  }
+  .hero-section-sub-heading {
+    font-size:38px;
+  }
+  .btn-pink{
+    padding:0.5rem 1.5rem;
+    margin-left: 5rem;
+  }
+  .heading{
+    font-size:3.6rem;
+  }
+  .about-content h3{
+    font-size:2rem;
+  }
+  .education h1{
+    font-size:2rem;
   }
 
   .nav-items .ab {
@@ -755,9 +775,18 @@ form .btn-pink {
     flex-direction: column;
     gap: 0;
   }
+  .head h1{
+    font-size:70px;
+  }
+  .head h2{
+    font-size:2.2rem;
+  }
 
   .skill-container-left {
-    width: 100%;
+    width: 18rem;
+  }
+  .contain h1{
+    font-size: 70px;
   }
 
   .skill-container-right {
